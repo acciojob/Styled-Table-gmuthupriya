@@ -1,1 +1,21 @@
+table,th,td{
+	border:1px solid #ddd;
+	padding:10px
+	
+}
+table{
+	width:100%;
+}
+th{
+	text-align:left;
+	background-color:lightskyblue;
+	font-family:monospace
+}
+tr{
+	background-color:lightgray;
+	font-family:monospace
+}
+tr:nth-child(odd){
+	background-color:#f2f2f2
+}
 /* your code */
